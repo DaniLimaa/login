@@ -33,7 +33,7 @@
         <div class="d-flex justify-content-around">
             <input class="btn btn-success mt-3" type="submit">
             <a href="formularioCadastrar.php" class="btn btn-primary mt-3">Cadastrar</a>
-            <a href="#" class="btn btn-secondary mt-3">Redefinir Senha</a>
+            <a href="formRedefinirSenha.php" class="btn btn-secondary mt-3">Redefinir Senha</a>
         </div>
     </form>
 </body>

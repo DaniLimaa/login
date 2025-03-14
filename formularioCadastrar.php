@@ -11,9 +11,7 @@
     }
 
     form {
-        width: 300px;
-        height: 50px;
-        border-radius: 10px;
+        width: 500px;
     }
 </style>
 
@@ -21,18 +19,41 @@
     <form action="./cadastrarUsuario.php" method="POST">
         <div class="mt-5 d-flex align-itens-center flex-column gap-2">
         <h2>Cadastrar Usuario</h2>
-        <input type="text"   placeholder="nome"       name="nome">
-        <input type="number" placeholder="nascimento" name="nascimento">
-        <input type="number" placeholder="cpf"        name="cpf">
-        <input type="number" placeholder="telefone"   name="telefone">
-        <input type="number" placeholder="telefone2"  name="telefone2">
-        <input type="text"   placeholder="rua"        name="logradouro">
-        <input type="number" placeholder="numero"     name="n_casa">
-        <input type="text"   placeholder="bairro"     name="bairro">
-        <input type="text"   placeholder="cidade"     name="cidade">
 
-        <input type="usuario"  placeholder="usuario" name="usuario">
-        <input type="password" placeholder="senha"   name="senha">
+        <label class="form-label"></label>
+        <input type="text" class="form-control" placeholder="nome" name="nome">
+
+        <label class="form-label"></label>
+        <input type="number" class="form-control" placeholder="ano de nascimento" name="nascimento">
+
+        <label class="form-label"></label>
+        <input type="number" class="form-control" placeholder="cpf" name="cpf">
+
+        <label class="form-label"></label>
+        <input type="number" class="form-control" placeholder="telefone" name="telefone">
+
+        <label class="form-label"></label>
+        <input type="number" class="form-control" placeholder="telefone2" name="telefone2">
+
+        <label class="form-label"></label>
+        <input type="text" class="form-control" placeholder="rua" name="logradouro">
+
+        <label class="form-label"></label>
+        <input type="number" class="form-control" placeholder="numero" name="n_casa">
+
+        <label class="form-label"></label>
+        <input type="text" class="form-control" placeholder="bairro" name="bairro">
+
+        <label class="form-label"></label>
+        <input type="text" class="form-control" placeholder="cidade" name="cidade">
+
+        <label class="form-label"></label>
+        <input type="text" class="form-control" placeholder="usuario" name="usuario">
+        
+        <label class="form-label"></label>
+        <input type="password" class="form-control" placeholder="senha" name="senha">
+
+        <input type="submit" class="btn btn-primary" value="Cadastrar">
         </div>
     </form>
 </body>
