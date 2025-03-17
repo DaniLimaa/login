@@ -18,7 +18,7 @@ $resultado = $banco->query($consultaUsuarioSenha)->fetch();
 var_dump($resultado);
 
 if (!empty($resultado) && $resultado != false){
-    header('location:loginSucesso.php');
-} else {
     header('location:index.php');
+} else {
+    header('location:tabelaUsuarios.php');
 }
